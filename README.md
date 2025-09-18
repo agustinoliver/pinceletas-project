@@ -121,7 +121,6 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 ## 📷 Capturas (Opcional)
 
 > (Aquí podés agregar screenshots del frontend una vez lo tengas desplegado o en desarrollo)
-holaaa
 
 
 ---
