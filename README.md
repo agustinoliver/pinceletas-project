@@ -130,6 +130,6 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 
 ## 📌 Autor
 
-Desarrollado por *Agustín Oliver*  
+Desarrollado por *Herrado Tomas* y *Olivera Agustín*  
 
 📍 Proyecto de tesis – Tecnicatura en Programació
