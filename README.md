@@ -52,7 +52,11 @@ La plataforma está pensada para un emprendimiento de productos artesanales, ofr
 
 - [pinceletas-admin-config-service](https://github.com/agustinoliver/pinceletas-admin-config-service)  
 
-  - Configuración del sitio, dashboard de métricas y notificaciones globales.  
+  - Configuración del sitio, dashboard de métricas y notificaciones globales.
+
+- [pinceletas-common-security](https://github.com/TomasHerrado/pinceletas-common-security.git)
+
+    - Librería compartida de seguridad JWT
 
 
 
@@ -104,7 +108,9 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 
 
 
-- *User & Auth Service* → Manejo de usuarios y autenticación.  
+- *User & Auth Service* → Manejo de usuarios y autenticación.
+
+- *common security* → Librería compartida de seguridad JWT
 
 - *Commerce Service* → Flujo comercial (productos, carrito, pedidos).  
 
