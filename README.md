@@ -20,7 +20,7 @@ La plataforma está pensada para un emprendimiento de productos artesanales, ofr
 
 - *Autenticación:* Firebase (Google) + JWT (Email/Password)
 
-- *Mensajería asíncrona: RabbitMQ 
+- *Mensajería asíncrona:* RabbitMQ 
 
 - *Base de datos:* MySQL  
 
@@ -129,7 +129,7 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 
 - *Admin & Config Service* → Configuración y métricas.
 
-- *Notification Service → Comunicación asíncrona mediante RabbitMQ y soporte JWT entre microservicios. 
+- *Notification Service* → Comunicación asíncrona mediante RabbitMQ y soporte JWT entre microservicios. 
 
 - *Frontend Angular* → Interfaz web para usuarios y administradores.  
 
