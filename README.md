@@ -18,7 +18,9 @@ La plataforma está pensada para un emprendimiento de productos artesanales, ofr
 
 - *Backend:* Java (Spring Boot) – Arquitectura de microservicios  
 
-- *Autenticación:* Firebase (Google) + JWT (Email/Password)  
+- *Autenticación:* Firebase (Google) + JWT (Email/Password)
+
+- *Mensajería asíncrona: RabbitMQ 
 
 - *Base de datos:* MySQL  
 
@@ -54,9 +56,20 @@ La plataforma está pensada para un emprendimiento de productos artesanales, ofr
 
   - Configuración del sitio, dashboard de métricas y notificaciones globales.
 
+
+
+🔗 Librerías compartidas
+
 - [pinceletas-common-security](https://github.com/TomasHerrado/pinceletas-common-security.git)
 
-    - Librería compartida de seguridad JWT
+    - Librería común para la seguridad y validación de JWT entre microservicios
+
+
+
+🔗 Servicio auxiliar de notificaciones
+- [pinceletas-notification-service](https://github.com/agustinoliver/pinceletas-notification-service.git)
+
+  - Módulo de soporte encargado de la gestión y envío de notificaciones utilizando RabbitMQ.
 
 
 
@@ -114,19 +127,12 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 
 - *Commerce Service* → Flujo comercial (productos, carrito, pedidos).  
 
-- *Admin & Config Service* → Configuración y métricas.  
+- *Admin & Config Service* → Configuración y métricas.
+
+- *Notification Service → Comunicación asíncrona mediante RabbitMQ y soporte JWT entre microservicios. 
 
 - *Frontend Angular* → Interfaz web para usuarios y administradores.  
 
-
-
----
-
-
-
-## 📷 Capturas (Opcional)
-
-> (Aquí podés agregar screenshots del frontend una vez lo tengas desplegado o en desarrollo)
 
 
 ---
@@ -137,4 +143,4 @@ La aplicación está basada en una arquitectura de *microservicios*, desacopland
 
 Desarrollado por *Herrado Tomas* y *Olivera Agustín*  
 
-📍 Proyecto de tesis – Tecnicatura en Programació
+📍 Proyecto de Tesis – Tecnicatura en Programación
