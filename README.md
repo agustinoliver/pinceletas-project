@@ -54,7 +54,7 @@ La plataforma está pensada para un emprendimiento de productos artesanales, ofr
 
 - [pinceletas-admin-config-service](https://github.com/agustinoliver/pinceletas-admin-config-service)  
 
-  - Configuración del sitio, dashboard de métricas y notificaciones globales.
+  - Configuración del sitio y dashboard de métricas.
 
 
 
